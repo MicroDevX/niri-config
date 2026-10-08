@@ -9,3 +9,13 @@ input {
         numlock
     }
 }
+
+output "VGA-1" {
+    mode custom=true "1440x900@60.00"
+    scale 1
+    transform "normal"
+    position x=1280 y=0
+    variable-refresh-rate // on-demand=true
+    focus-at-startup
+}
+
