@@ -42,3 +42,5 @@ layout {
         urgent-color "#9b0000"
     }
 }
+//spawn-at-startup "waybar"
+spawn-at-startup "foot"
