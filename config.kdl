@@ -1,0 +1,11 @@
+input {
+    keyboard {
+        xkb {
+            layout "us,ara"
+            options "grp:win_space_toggle, caps:swapcaps"
+        }
+        repeat-delay 350
+        repeat-rate 25
+        numlock
+    }
+}
