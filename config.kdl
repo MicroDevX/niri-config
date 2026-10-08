@@ -19,3 +19,26 @@ output "VGA-1" {
     focus-at-startup
 }
 
+layout {
+    gaps 0
+    center-focused-column "never"
+    preset-column-widths {
+        //proportion 0.33333
+        //proportion 0.5
+        //proportion 0.66667
+          proportion 1.0
+    }
+    default-column-width { proportion 1.0; }
+    focus-ring {
+        width 2
+        active-color "#ffb780"
+        inactive-color "#505050"
+    }
+    border {
+        off
+        width 0
+        active-color "#ffc87f"
+        inactive-color "#505050"
+        urgent-color "#9b0000"
+    }
+}
